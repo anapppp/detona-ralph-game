@@ -1,0 +1,50 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-image: url("../images/wall.webp");
+    background-size: 15%;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    height: 90px;
+    width: 100%;
+    background-color: black;
+    color: #ffffff;
+    border-bottom: 5px solid gold;
+}
+
+.panel {
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 550px;
+}
+
+.square {
+    height: 150px;
+    width: 150px;
+    border: 2px solid #5c351e;
+    background-color: #bbf5ee;
+}
+
+.enemy {
+    background-image: url("../images/ralph.png");
+    background-size: cover;
+}
+
+.menu-lives {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-time h2:nth-child(2),
+.menu-score h2:nth-child(2) {
+    margin-top: 1rem;
+}
